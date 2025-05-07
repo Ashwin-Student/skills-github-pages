@@ -1,0 +1,63 @@
+Git is an version control system is an tool that help to track changes in code.
+
+it is free and open source.
+
+it is fast and scalable.
+
+it helps in tracking history.
+
+it  also help in collaboration.
+
+
+
+git --version //to check version 
+
+git config --global user.name "your name"  //it used to config the repo in ide
+
+git config --global user.email "your email"  
+
+git config --list
+
+git clone <-repo link-> //it is used to clone git repository on local machine
+
+git status //it is used to check the status of file on github and local 
+
+
+git add<-new file-> //it is used to add file in working directory of git
+
+git add .  
+
+
+git commit -m "some message about the changes in code" // it is used to commit the file on github
+
+git push origin main //it is used to push file from local device to the remote system
+
+
+init   //it is used to initialize the git repository on local machine
+
+git init
+
+
+git remote add origin  <-link->
+
+git remote -v (to verify remote)
+
+git branch  (to check branch)
+
+git branch -M main (to rename branch)
+
+git push origin main
+
+git checkout <-branch name-> //to navigate
+
+git checkout -b <-new branch name->
+
+git branch -d <-branch name->
+
+
+git diff <-branch name->  //to comapre commit in branches
+
+git merge <--branch name>  //to merge branches
+
+
+
